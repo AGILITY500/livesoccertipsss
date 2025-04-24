@@ -4,7 +4,7 @@ const express = require("express")
     Signup,
     Payment,
     Pay,
-    Game,
+    Games,
     Login,
     About,
     Contact, 
@@ -21,7 +21,7 @@ viewRouter.get("/", homePage)
 viewRouter.get("/signup", Signup)
 viewRouter.get("/payment", Payment)
 viewRouter.get("/Pay", Pay)
-viewRouter.get("/games", Game) 
+viewRouter.get("/games", Games) 
 viewRouter.get("/login", Login)
 viewRouter.get("/about", About) 
 viewRouter.get("/contact", Contact) 

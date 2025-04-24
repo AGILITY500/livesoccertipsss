@@ -10,7 +10,7 @@ const Contact = async (req,res) => {
 const Login = async (req,res) => {
     res.render('login')
 }
-const Game = async (req,res) => {
+const Games = async (req,res) => {
     res.render('games')
 }
 const Payment = async (req,res) => {
@@ -44,7 +44,7 @@ module.exports = {
     Signup,
     Payment,
     Pay,
-    Game,
+    Games,
     Login,
     About,
     Contact,
